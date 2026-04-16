@@ -1,38 +1,22 @@
-beautifulsoup4==4.14.3
-certifi==2026.1.4
-charset-normalizer==3.4.4
-contourpy==1.3.3
-cycler==0.12.1
-filelock==3.20.3
-fonttools==4.61.1
-gdown==5.2.1
-idna==3.11
-kiwisolver==1.4.9
-matplotlib==3.10.8
-numpy==2.4.1
-packaging==25.0
-pandas==2.3.3
-psutil==6.1.0
-pillow==12.1.0
-polars==1.20.0
-pyarrow==23.0.0
-pyparsing==3.3.1
-PySocks==1.7.1
-python-dateutil==2.9.0.post0
-python-dotenv==1.2.1
-pytz==2025.2
-requests==2.32.5
-scipy==1.17.0
-seaborn==0.13.2
-six==1.17.0
-soupsieve==2.8.3
-tqdm==4.67.1
-typing_extensions==4.15.0
-tzdata==2025.3
-urllib3==2.6.3
-ipykernel==6.29.5
-jupyterlab==4.3.4
-notebook==7.3.2
-nbformat==5.10.4
-ipywidgets==8.1.5
+# Core data manipulation and numerical computation
+pandas>=1.3.0
+numpy>=1.21.0
 
+# Plotting and visualization
+matplotlib>=3.4.0
+
+# Hidden Markov Model
+hmmlearn>=0.2.7
+
+# Statistical functions (t-distribution, etc.)
+scipy>=1.7.0
+
+# Binance API client
+python-binance>=1.0.17
+
+# Jupyter Notebook (for running the .ipynb)
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Optional: for exporting notebook to PDF
+nbconvert>=6.0.0
